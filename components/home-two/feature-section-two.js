@@ -6,7 +6,7 @@ export default function FeatureSectionTwo() {
 		<div className="section bg-gray-800 fugu-section-padding3">
 			<div className="container">
 				<div className="fugu-section-title title-white">
-					<h2>Everything you need for crypto trading is available</h2>
+					<h2>Ai Market Maker in the Cryptocurrency Market</h2>
 				</div>
 				<div className="row">
 					<div className="col-lg-4 col-md-6">
@@ -17,8 +17,7 @@ export default function FeatureSectionTwo() {
 							<div className="fugu-iconbox-data3">
 								<h4>Free trial account</h4>
 								<p>
-									a product or service that is offered to customers for free for a short period of
-									time so they can try using it easily.
+								Use our liquidity and proprietary software to generate organic trading volumes, control the volatility and keep the low spreads for your tokens.
 								</p>
 							</div>
 						</div>

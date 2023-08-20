@@ -1,33 +1,32 @@
 import Head from "next/head";
-import FaqHomeOne from "../components/common/faq/faq-home-one";
-import FeatureSectionTwo from "../components/common/feature/feature-section-two";
-import ClientSliderOne from "../components/common/sliders/client/client-slider-one";
-import TestimonialSliderOne from "../components/common/sliders/testimonial/testimonial-slider-one";
-import ContentWithPhotoSection from "../components/home/content-with-photo-section";
-import ContentWithPhotoSectionTwo from "../components/home/content-with-photo-section-two";
-import CtaHomeOne from "../components/home/cta-home-one";
-import HeroSection from "../components/home/hero-section";
-import VideoSectionTwo from "./../components/common/video/video-section-two";
+import TestimonialSliderTwo from "../components/common/sliders/testimonial/testimonial-slider-two";
+import TextSliderOne from "../components/common/sliders/text/text-slider-one";
+import VideoSectionThree from "../components/common/video/video-section-three";
+import FeatureSection from "../components/home-two/feature-section";
+import FeatureSectionTwo from "../components/home-two/feature-section-two";
+import HeroThumbSection from "../components/home-two/hero-thumb-section";
+import HomeTwoHeroSection from "../components/home-two/home-two-hero-section";
+import TradingSection from "../components/home-two/trading-section";
+import TradingSectionTwo from "../components/home-two/trading-section-two";
 
-export default function Home() {
+export default function IndexTwo() {
 	return (
 		<>
 			<Head>
-				<title>fugu - index -01</title>
+				<title>fugu - index o2</title>
 			</Head>
-			<HeroSection />
-			<ClientSliderOne />
+			<HomeTwoHeroSection />
+			<HeroThumbSection />
+			<FeatureSection />
+			<TextSliderOne />
+			<VideoSectionThree />
+			<TradingSection />
 			<FeatureSectionTwo />
-			<ContentWithPhotoSection />
-			<VideoSectionTwo />
-			<ContentWithPhotoSectionTwo />
-			<TestimonialSliderOne />
-			<FaqHomeOne />
-			<CtaHomeOne />
+			<TradingSectionTwo />
+			<TestimonialSliderTwo />
 		</>
 	);
 }
-
 export async function getStaticProps() {
-	return { props: { header: "one", footer: "one" } };
+	return { props: { header: "two", footer: "two" } };
 }

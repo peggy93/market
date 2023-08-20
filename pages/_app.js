@@ -15,8 +15,8 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				{/* common title */}
-				<title>fugu</title>
+				{/* Ai Market Maker */}
+				<title>Ai Market Maker</title>
 			</Head>
 			<Layout>
 				<Component {...pageProps} />
