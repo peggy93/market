@@ -55,19 +55,19 @@ export default function TextSliderOne() {
 							<div className="fugu-text-slider-icon">
 								<img src="/images/all-img/v2/star.png" alt="" />
 							</div>
-							<h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+							<h3>BEST PLACE TO BUY MARKET MAKING SOFTWARE </h3>
 						</div>
 						<div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/all-img/v2/star.png" alt="" />
 							</div>
-							<h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+							<h3>BEST PLACE TO BUY MARKET MAKING SOFTWARE </h3>
 						</div>
 						<div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/all-img/v2/star.png" alt="" />
 							</div>
-							<h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+							<h3>BEST PLACE TO BUY MARKET MAKING SOFTWARE </h3>
 						</div>
 					</Slider>
 				</div>
@@ -79,19 +79,19 @@ export default function TextSliderOne() {
 							<div className="fugu-text-slider-icon">
 								<img src="/images/all-img/v2/star.png" alt="" />
 							</div>
-							<h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+							<h3>BEST PLACE TO BUY MARKET MAKING SOFTWARE </h3>
 						</div>
 						<div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/all-img/v2/star.png" alt="" />
 							</div>
-							<h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+							<h3>BEST PLACE TO BUY MARKET MAKING SOFTWARE </h3>
 						</div>
 						<div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/all-img/v2/star.png" alt="" />
 							</div>
-							<h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+							<h3>BEST PLACE TO BUY MARKET MAKING SOFTWARE </h3>
 						</div>
 					</Slider>
 				</div>

@@ -14,7 +14,7 @@ export default function HomeTwoHeroSection() {
 					Use our liquidity and proprietary software to generate organic trading volumes, control the volatility and keep the low spreads for your tokens.
 					</p>
 					<div className="fugu-hero-btn-wrap wow fadeInUpX" data-wow-delay="0.40s">
-						<Link href="contact" legacyBehavior>
+						<Link href="contact-dark" legacyBehavior>
 							<a className="fugu-btn fugu-round-btn active">Get Started</a>
 						</Link>
 					</div>

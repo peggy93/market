@@ -48,7 +48,7 @@ export default function HeaderHomeTwo() {
 								<NavItem navItemText="Demo" menuItems={DemoDropdownMenus} />
 								<NavItem navItemText="Pages" menuItems={PagesDropdownMenus} />
 								<NavItem navItemText="Elements" menuItems={ElementsMegaMenu} megaMenu />
-								<NavItem navItemText="Blog" menuItems={BlogDropdownMenus} />
+								
 								<NavItem navItemText="Contact Us" menuItems={ContactDropdownMenus} />
 							</Navbar>
 						</nav>

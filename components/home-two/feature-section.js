@@ -7,7 +7,7 @@ export default function FeatureSection() {
 		<div className="section bg-warning-200 fugu-section-padding3">
 			<div className="container">
 				<div className="fugu-section-title">
-					<h2>Secure solutions for your digital and money</h2>
+					<h2>How it works?</h2>
 				</div>
 				<div className="row">
 					<div className="col-lg-4 col-md-6">
@@ -16,10 +16,8 @@ export default function FeatureSection() {
 								<img src="/images/all-img/v2/icon1.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data2">
-								<h4>User friendly dashboard</h4>
-								<p>
-									Every user controls the data they wish to see as well as the dashboard's structure.
-								</p>
+								<h4>The Service Registration</h4>
+							
 							</div>
 						</div>
 					</div>
@@ -29,10 +27,8 @@ export default function FeatureSection() {
 								<img src="/images/all-img/v2/icon2.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data2">
-								<h4>Secure and fast payments</h4>
-								<p>
-									Every user controls the data they wish to see as well as the dashboard's structure.
-								</p>
+								<h4>Connect API</h4>
+								
 							</div>
 						</div>
 					</div>
@@ -42,10 +38,8 @@ export default function FeatureSection() {
 								<img src="/images/all-img/v2/icon3.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data2">
-								<h4>A wallet you can trust</h4>
-								<p>
-									Every user controls the data they wish to see as well as the dashboard's structure.
-								</p>
+								<h4>Configurating the necessary AiMM </h4>
+							
 							</div>
 						</div>
 					</div>
