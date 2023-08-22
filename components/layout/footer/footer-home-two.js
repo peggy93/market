@@ -1,90 +1,117 @@
-/* eslint-disable react/no-unescaped-entities */
-
-import Link from "next/link";
-
 /* eslint-disable @next/next/no-img-element */
-export default function FooterHomeTwo() {
+import Link from "next/link";
+import React from "react";
+
+export default function FooterHomeThree() {
 	return (
-		<footer className="fugu-foote2-section">
+		<footer className="fugu--footer-section">
 			<div className="container">
-				<div className="fugu-footer-top">
-					<div className="fugu-default-content">
-						<h2 className="wow fadeInUpX" data-wow-delay="0s">
-							Ready for an innovative trading strategy? Let's start now!
-						</h2>
-						<p className="wow fadeInUpX" data-wow-delay="0.15s">
-							Get start now! And buy and sell cryptocurrency It simplifies the process of buying and
-							selling digital from anywhere in the world.
-						</p>
-						<div className="fugu-app-btn-wrap wow fadeInUpX" data-wow-delay="0.25s">
-							<Link href={"contact"} legacyBehavior>
-								<a className="fugu-app-btn">
-									<img src="/images/all-img/app-store.png" alt="" />
-								</a>
-							</Link>
-							<Link href={"contact"} legacyBehavior>
-								<a className="fugu-app-btn">
-									<img src="/images/all-img/play-store.png" alt="" />
-								</a>
-							</Link>
-						</div>
-					</div>
-				</div>
-				<div className="fugu-footer-middle">
+				<div className="fugu--footer-top">
 					<div className="row">
-						<div className="col-xl-2 col-lg-2">
-							<div className="fugu-footer-logo">
-								<img src="/images/logo/logo-white.svg" alt="" />
+						<div className="col-lg-3">
+							<div className="fugu--textarea">
+								<div className="fugu--footer-logo">
+									<img src="/images/logo/logo-white.svg" alt="" className="light-version-logo" />
+								</div>
+								<p>
+									Discover NFTs by category, track the latest drops, and follow the collections you
+									love to enjoy it!
+								</p>
+								<div className="fugu--social-icon">
+									<ul>
+										<li>
+											<Link href="#">
+												<img src="/images/social2/twitter.svg" alt="" />
+											</Link>
+										</li>
+										<li>
+											<Link href="#">
+												<img src="/images/social2/facebook.svg" alt="" />
+											</Link>
+										</li>
+										<li>
+											<Link href="#">
+												<img src="/images/social2/instagram.svg" alt="" />
+											</Link>
+										</li>
+										<li>
+											<Link href="#">
+												<img src="/images/social2/github.svg" alt="" />
+											</Link>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
-						<div className="col-xl-7 col-lg-8">
-							<div className="fugu-footer-menu2">
+						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
+							<div className="fugu--footer-menu">
+								<span>Marketplace</span>
 								<ul>
 									<li>
-										<Link href={"#"}> Demos </Link>
+										<Link href="#">Create A Store </Link>
 									</li>
 									<li>
-										<Link href={"#"}> About Us </Link>
+										<Link href="#">Start Selling </Link>
 									</li>
 									<li>
-										<Link href={"#"}> Collections </Link>
+										<Link href="#">My Account </Link>
 									</li>
 									<li>
-										<Link href={"#"}> Pages </Link>
+										<Link href="#">Job </Link>
 									</li>
 									<li>
-										<Link href={"#"}> Contact </Link>
+										<Link href="#">List a Item </Link>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div className="col-xl-3 col-lg-2">
-							<Link href="mailto:name@email.com" legacyBehavior>
-								<a className="fugu-email">
-									<img src="/images/svg/eamil.svg" alt="" />
-									info@example.com
-								</a>
-							</Link>
-						</div>
-					</div>
-				</div>
-				<div className="fugu-footer-bottom">
-					<div className="row">
-						<div className="col-lg-6 col-md-8">
-							<p>&copy; Copyright 2022, All Rights Reserved by Mthemeus</p>
-						</div>
-						<div className="col-lg-6 col-md-4">
-							<div className="fugu-footer-menu">
+						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
+							<div className="fugu--footer-menu">
+								<span>Marketplace</span>
 								<ul>
 									<li>
-										<Link href={"#"}> Terms </Link>
+										<Link href="#">Art </Link>
 									</li>
 									<li>
-										<Link href={"#"}> Privacy Policy </Link>
+										<Link href="#">Digital Art </Link>
+									</li>
+									<li>
+										<Link href="#">Photography </Link>
+									</li>
+									<li>
+										<Link href="#">Games </Link>
+									</li>
+									<li>
+										<Link href="#">Music </Link>
 									</li>
 								</ul>
 							</div>
 						</div>
+						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
+							<div className="fugu--footer-menu">
+								<span>Marketplace</span>
+								<ul>
+									<li>
+										<Link href="#">Explore NFTs </Link>
+									</li>
+									<li>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="fugu--footer-bottom">
+					assets <p>&copy; Copyright 2023, All Rights Reserved by AiMM</p>
+					<div className="fugu--footer-menu">
+						<ul>
+							<li>
+								<Link href="#">Terms </Link>
+							</li>
+							<li>
+								<Link href="#"> Privacy Policy </Link>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
