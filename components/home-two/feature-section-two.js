@@ -6,7 +6,7 @@ export default function FeatureSectionTwo() {
 		<div className="section bg-gray-800 fugu-section-padding3">
 			<div className="container">
 				<div className="fugu-section-title title-white">
-					<h2>Ai Market Maker in the Cryptocurrency Market</h2>
+					<h2>1 Exchange All Pair Included</h2>
 				</div>
 				<div className="row">
 					<div className="col-lg-4 col-md-6">
@@ -15,10 +15,8 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon4.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>Free trial account</h4>
-								<p>
-								Use our liquidity and proprietary software to generate organic trading volumes, control the volatility and keep the low spreads for your tokens.
-								</p>
+								<h4>Placing buy and sell order.</h4>
+								
 							</div>
 						</div>
 					</div>
@@ -28,11 +26,8 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon5.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>Guided by experts</h4>
-								<p>
-									CryptoExperts SAS is a company founded by internationally recognized industrial &
-									academic researchers.
-								</p>
+								<h4>Creating trading volume by mean of a turnover bot and other trading terminals.</h4>
+							
 							</div>
 						</div>
 					</div>
@@ -42,11 +37,8 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon6.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>Affordable plans</h4>
-								<p>
-									If you're ready to invest in some crypto, check out the nexto cheap options that
-									could generate nice returns in 2022.
-								</p>
+								<h4>Keeping spreads low and supporting liquidity.</h4>
+							
 							</div>
 						</div>
 					</div>
@@ -56,11 +48,8 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon7.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>24/7 Live support</h4>
-								<p>
-									When you need help, our team of experts will work with you via our 24/7 live chat to
-									reach a quick & efficient.
-								</p>
+								<h4>24/7 traders operation and notification of the project team about price, liquidity and trade demand changes.</h4>
+								
 							</div>
 						</div>
 					</div>
@@ -70,11 +59,8 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon8.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>Online wallets</h4>
-								<p>
-									Best for security because it comes with the strongest security features & track
-									record of any cryptoo online wallet.
-								</p>
+								<h4>Anti-arbitrage with multiple pairs and multiple trading venues.</h4>
+								
 							</div>
 						</div>
 					</div>
@@ -84,11 +70,8 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon9.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>Multi curency support</h4>
-								<p>
-									Multi-currency support means that shoppers can pay for your products or services
-									using the currency.
-								</p>
+								<h4>Technical setup and configuration of trading software (turnover bot, spread bot, betting bot).</h4>
+							
 							</div>
 						</div>
 					</div>
