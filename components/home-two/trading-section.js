@@ -33,24 +33,33 @@ export default function TradingSection() {
 					</div>
 					<div className="col-lg-6 col-md-10 d-flex align-items-center">
 						<div className="fugu-default-content z-index">
-							<h2>Safe, guaranteed, & easy to use to get started trading</h2>
-							<p>
-								It simplifies the process of buying and selling digital from anywhere in the world.
-								Available to citizens in the United States, Europe, & Australia.
-							</p>
+							<h2>Ai Market Making Advantages</h2>
+							
 							<div className="fugu-icon-list fugu-icon-list3">
 								<ul>
 									<li>
 										<img src="/images/svg/check2.svg" alclasst="" />
-										It starts with a simple order form transfer
+										Dashboard
 									</li>
 									<li>
 										<img src="/images/svg/check2.svg" alt="" />
-										Next, your money is turned into Chain
+										60+ Connected Exchanges
 									</li>
 									<li>
 										<img src="/images/svg/check2.svg" alt="" />
-										Boom! 20% interest made overnight
+										24/7 Support
+									</li>
+									<li>
+										<img src="/images/svg/check2.svg" alt="" />
+										Education + Personal Trader
+									</li>
+									<li>
+										<img src="/images/svg/check2.svg" alt="" />
+										Positive ratings Coinmarketcap & Coingecko
+									</li>
+									<li>
+										<img src="/images/svg/check2.svg" alt="" />
+										Best Price
 									</li>
 								</ul>
 							</div>
