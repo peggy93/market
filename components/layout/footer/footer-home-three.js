@@ -45,66 +45,22 @@ export default function FooterHomeThree() {
 						</div>
 						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
 							<div className="fugu--footer-menu">
-								<span>Marketplace</span>
+								
 								<ul>
 									<li>
-										<Link href="#">Create A Store </Link>
-									</li>
-									<li>
-										<Link href="#">Start Selling </Link>
-									</li>
-									<li>
-										<Link href="#">My Account </Link>
-									</li>
-									<li>
-										<Link href="#">Job </Link>
-									</li>
-									<li>
-										<Link href="#">List a Item </Link>
+								
 									</li>
 								</ul>
 							</div>
 						</div>
 						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
 							<div className="fugu--footer-menu">
-								<span>Marketplace</span>
+								
 								<ul>
 									<li>
-										<Link href="#">Art </Link>
+							
 									</li>
 									<li>
-										<Link href="#">Digital Art </Link>
-									</li>
-									<li>
-										<Link href="#">Photography </Link>
-									</li>
-									<li>
-										<Link href="#">Games </Link>
-									</li>
-									<li>
-										<Link href="#">Music </Link>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
-							<div className="fugu--footer-menu">
-								<span>Marketplace</span>
-								<ul>
-									<li>
-										<Link href="#">Explore NFTs </Link>
-									</li>
-									<li>
-										<Link href="#">Platform Status </Link>
-									</li>
-									<li>
-										<Link href="#">Help center </Link>
-									</li>
-									<li>
-										<Link href="#">Partners </Link>
-									</li>
-									<li>
-										<Link href="#">Marketplace </Link>
 									</li>
 								</ul>
 							</div>
@@ -112,7 +68,7 @@ export default function FooterHomeThree() {
 					</div>
 				</div>
 				<div className="fugu--footer-bottom">
-					assets <p>&copy; Copyright 2022, All Rights Reserved by Mthemeus</p>
+					assets <p>&copy; Copyright 2023, All Rights Reserved by AiMM</p>
 					<div className="fugu--footer-menu">
 						<ul>
 							<li>

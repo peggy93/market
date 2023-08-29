@@ -15,7 +15,7 @@ export default function FooterHomeOne() {
 								Cryptocurrency trading is offered through an account with the fugu crypto app. Our
 								simplified zero commission pricing for use stocks.
 							</p>
-							<p className="fugu-copywright">&copy; Copyright 2022, All Rights Reserved by Mthemeus</p>
+							<p className="fugu-copywright">&copy; Copyright 20fvsv22, All Rights Reserved by Mthemeus</p>
 						</div>
 					</div>
 					<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">

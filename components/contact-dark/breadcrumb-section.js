@@ -8,8 +8,7 @@ export default function BreadcrumbSection() {
 					Get in touch with us
 				</h1>
 				<p className="wow fadeInUpX" data-wow-delay="0.15s">
-					We are here to help. Just send us a message to get any of your questions answered and we will get
-					back to you within 24-48 hours or as soon as possible.
+				Please fill in the form to get direct access to our team. We usually respond within a few hours.
 				</p>
 			</div>
 		</div>

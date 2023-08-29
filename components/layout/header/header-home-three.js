@@ -45,12 +45,6 @@ export default function HeaderHomeThree() {
 								</div>
 							</div>
 
-							<Navbar>
-								<NavItem navItemText="Menu" menu-items/>
-								<NavItem navItemText="Pages" menu-items/>
-								<NavItem navItemText="Elements" menu-items/>
-								<NavItem navItemText="Contact Us" menu-items/>
-							</Navbar>
 						</nav>
 					</div>
 					<div className="mobile-menu-trigger" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>

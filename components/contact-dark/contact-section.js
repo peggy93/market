@@ -30,7 +30,7 @@ export default function ContactSection() {
 									<span>
 										<img src="/images/svg2/mail2.svg" alt="" />
 									</span>
-									mail@example.com
+									aimarketmakerio@gmail.com
 								</Link>
 							</li>
 							<li>
@@ -59,26 +59,38 @@ export default function ContactSection() {
 				</div>
 				<div className="col-lg-7">
 					<div className="fugu--contact-form wow fadeInUpX" data-wow-delay="0.15s">
-						<h3>Leave a Reply:</h3>
-						<p>Your email address will not be published. Required fields are marked*</p>
+						<h3>YOUR CONTACTS</h3>
 						<form onSubmit={handleSubmit(onSubmit)}>
 							<div className="fugu--comment-field">
 								<input
-									type="text"
-									placeholder="Your Name*"
+									type="email"
+									placeholder="Email*"
 									{...register("name", { required: true })}
 									aria-invalid={errors.name ? "true" : "false"}
 								/>
 								{errors.name?.type === "required" && (
 									<p role="alert" className="error">
-										First name is required
+										Email Not Valid
+									</p>
+								)}
+								</div>
+									<div className="fugu--comment-field">
+								<input
+									type="telegram"
+									placeholder="Telegram Id*"
+									{...register("name", { required: true })}
+									aria-invalid={errors.name ? "true" : "false"}
+								/>
+								{errors.name?.type === "required" && (
+									<p role="alert" className="error">
+										@ is required
 									</p>
 								)}
 							</div>
 							<div className="fugu--comment-field">
 								<input
-									type="email"
-									placeholder="Your Email*"
+									type="website"
+									placeholder="Website*"
 									{...register("email", { required: true })}
 									aria-invalid={errors.email ? "true" : "false"}
 								/>
@@ -87,16 +99,10 @@ export default function ContactSection() {
 										Email is required
 									</p>
 								)}
-							</div>
-							<div className="fugu--comment-field">
-								<textarea
-									name="textarea"
-									placeholder="Write your comment*"
-									{...register("comment")}
-								></textarea>
+						
 							</div>
 							<button id="fugu--form-submit-btn" type="submit">
-								Post Comment
+								Sent
 							</button>
 						</form>
 					</div>
