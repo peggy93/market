@@ -48,8 +48,8 @@ export default function HeaderHomeTwo() {
 						</nav>
 					</div>
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-						<a className="fugu-btn fugu-header-btn fugu-header-btn2" href="contact.html">
-							Get Started
+						<a className="fugu-btn fugu-header-btn fugu-header-btn2" href="contact-dark">
+							Get In Touch
 						</a>
 					</div>
 

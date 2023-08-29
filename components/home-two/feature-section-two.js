@@ -6,7 +6,7 @@ export default function FeatureSectionTwo() {
 		<div className="section bg-gray-800 fugu-section-padding3">
 			<div className="container">
 				<div className="fugu-section-title title-white">
-					<h2>1 Exchange All Pair Included</h2>
+					<h2>All Pair Included</h2>
 				</div>
 				<div className="row">
 					<div className="col-lg-4 col-md-6">

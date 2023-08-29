@@ -1,71 +1,67 @@
-/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-export default function NftRoadMap() {
+export default function TradingSection() {
 	return (
-		<div className="fugu--roadmap-section">
+		<div className="section bg-warning-100 fugu-section-padding overflow-hidden">
 			<div className="container">
-				<div className="fugu--section-title">
-					<div className="fugu--default-content content-sm">
-						<h2>Create and sell your NFTs</h2>
-						<p>
-							Anyone can make a profile on Foundation but only selected creators can mint NFTs & published
-							a complete guide.
-						</p>
-					</div>
-				</div>
 				<div className="row">
-					<div className="col-xl-3 col-md-6">
-						<div className="fugu--iconbox-wrap wow fadeInUpX" data-wow-delay="0s">
-							<div className="fugu--iconbox-thumb">
-								<img src="/images/all-img/v3/roadmap-icon1.png" alt="" />
-							</div>
-							<div className="fugu--iconbox-data">
-								<h4>Set up your wallet</h4>
-								<p>
-									Once you've set up your wallet of choice, connect it by clicking the wallet icon
-									easily.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-xl-3 col-md-6">
-						<div className="fugu--iconbox-wrap wow fadeInUpX" data-wow-delay="0.10s">
-							<div className="fugu--iconbox-thumb">
-								<img src="/images/all-img/v3/roadmap-icon2.png" alt="" />
-							</div>
-							<div className="fugu--iconbox-data">
-								<h4>Create collection</h4>
-								<p>
-									Click my collections and set up your collection. Add social links a description and
-									others.
-								</p>
+					<div className="col-lg-6">
+						<div className="fugu-trading-card">
+							<div className="fugu-trading-card-thumb">
+								<img
+									className="wow fadeInUpX"
+									data-wow-delay="0s"
+									src="/images/all-img/v2/card1.png"
+									alt=""
+								/>
+								<div className="fugu-trading-card-thumb2">
+									<img
+										className="wow fadeInLeft"
+										data-wow-delay="0.20s"
+										src="/images/all-img/v2/card2.png"
+										alt=""
+									/>
+								</div>
+								<div className="fugu-shape6">
+									<img src="/images/shape/shape5.png" alt="" />
+								</div>
+								<div className="fugu-shape7">
+									<img src="/images/shape/shape6.png" alt="" />
+								</div>
 							</div>
 						</div>
 					</div>
-					<div className="col-xl-3 col-md-6">
-						<div className="fugu--iconbox-wrap wow fadeInUpX" data-wow-delay="0.20s">
-							<div className="fugu--iconbox-thumb">
-								<img src="/images/all-img/v3/roadmap-icon3.png" alt="" />
-							</div>
-							<div className="fugu--iconbox-data">
-								<h4>Add your NFT</h4>
-								<p>
-									Upload your work (Image, art, video, audio, or 3D art) add a title and description.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-xl-3 col-md-6">
-						<div className="fugu--iconbox-wrap wow fadeInUpX" data-wow-delay="0.30s">
-							<div className="fugu--iconbox-thumb">
-								<img src="/images/all-img/v3/roadmap-icon4.png" alt="" />
-							</div>
-							<div className="fugu--iconbox-data">
-								<h4>List them for sale</h4>
-								<p>
-									Choose between action, fixed-price listings & pricing listings. We help you sell
-									them.
-								</p>
+					<div className="col-lg-6 col-md-10 d-flex align-items-center">
+						<div className="fugu-default-content z-index">
+							<h2>Ai Market Maker Advantages</h2>
+							
+							<div className="fugu-icon-list fugu-icon-list3">
+								<ul>
+									<li>
+										<img src="/images/svg/check2.svg" alclasst="" />
+										Dashboard
+									</li>
+									<li>
+										<img src="/images/svg/check2.svg" alt="" />
+										60+ Connected Exchanges
+									</li>
+									<li>
+										<img src="/images/svg/check2.svg" alt="" />
+										24/7 Support
+									</li>
+									<li>
+										<img src="/images/svg/check2.svg" alt="" />
+										Education + Personal Trader
+									</li>
+									<li>
+										<img src="/images/svg/check2.svg" alt="" />
+										Positive ratings Coinmarketcap & Coingecko
+									</li>
+									<li>
+										<img src="/images/svg/check2.svg" alt="" />
+										Best Price
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
