@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import {
-	BlogDropdownMenus,
 	ContactDropdownMenus,
 	DemoDropdownMenus,
 	ElementsMegaMenu,
@@ -47,18 +46,12 @@ export default function HeaderHomeThree() {
 							</div>
 
 							<Navbar>
-								<NavItem navItemText="Demo" menuItems={DemoDropdownMenus} />
-								<NavItem navItemText="Pages" menuItems={PagesDropdownMenus} />
-								<NavItem navItemText="Elements" menuItems={ElementsMegaMenu} megaMenu />
-								<NavItem navItemText="Blog" menuItems={BlogDropdownMenus} />
-								<NavItem navItemText="Contact Us" menuItems={ContactDropdownMenus} />
+								<NavItem navItemText="Menu" menu-items/>
+								<NavItem navItemText="Pages" menu-items/>
+								<NavItem navItemText="Elements" menu-items/>
+								<NavItem navItemText="Contact Us" menu-items/>
 							</Navbar>
 						</nav>
-					</div>
-					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-						<a className="fugu--btn fugu--menu-btn1" href="contact.html">
-							Connect Wallet
-						</a>
 					</div>
 					<div className="mobile-menu-trigger" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
 						<span></span>

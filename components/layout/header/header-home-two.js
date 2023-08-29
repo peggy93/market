@@ -1,13 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { useState } from "react";
-import {
-	BlogDropdownMenus,
-	ContactDropdownMenus,
-	DemoDropdownMenus,
-	ElementsMegaMenu,
-	PagesDropdownMenus,
-} from "../navbar/menu-data";
 import NavItem from "../navbar/nav-item";
 import Navbar from "../navbar/navbar";
 import useScroll from "./../../../hooks/useScroll";
@@ -45,12 +38,13 @@ export default function HeaderHomeTwo() {
 							</div>
 
 							<Navbar>
-								<NavItem navItemText="Demo" menuItems={DemoDropdownMenus} />
-								<NavItem navItemText="Pages" menuItems={PagesDropdownMenus} />
-								<NavItem navItemText="Elements" menuItems={ElementsMegaMenu} megaMenu />
-								
-								<NavItem navItemText="Contact Us" menuItems={ContactDropdownMenus} />
+								<NavItem navItemText="Menu" menuItems/>
+								<NavItem navItemText="Services" PageMenuItems/>
+								<NavItem navItemText="FAQ" menu-items/>
+								<NavItem navItemText="Contact Us" menu-items/>
+							
 							</Navbar>
+
 						</nav>
 					</div>
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">

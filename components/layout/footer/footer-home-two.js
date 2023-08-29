@@ -70,28 +70,6 @@ export default function FooterHomeThree() {
 								<span>Marketplace</span>
 								<ul>
 									<li>
-										<Link href="#">Art </Link>
-									</li>
-									<li>
-										<Link href="#">Digital Art </Link>
-									</li>
-									<li>
-										<Link href="#">Photography </Link>
-									</li>
-									<li>
-										<Link href="#">Games </Link>
-									</li>
-									<li>
-										<Link href="#">Music </Link>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
-							<div className="fugu--footer-menu">
-								<span>Marketplace</span>
-								<ul>
-									<li>
 										<Link href="#">Explore NFTs </Link>
 									</li>
 									<li>
